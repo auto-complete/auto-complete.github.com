@@ -1,0 +1,128 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta name="generator" content="pandoc" />
+  <title>Auto-Complete - Changes</title>
+  <style type="text/css">code{white-space: pre;}</style>
+  <link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+<body>
+<div id="header">
+<h1 class="title">Auto-Complete - Changes</h1>
+</div>
+<h1 id="changes-v1.4">v1.4 Changes</h1>
+<h2 id="new-options_v1.4">New Options</h2>
+<ul>
+<li><a href="manual.html#ac-use-dictionary-as-stop-words"><code>ac-use-dictionary-as-stop-words</code></a></li>
+<li><a href="manual.html#ac-non-trigger-commands"><code>ac-non-trigger-commands</code></a></li>
+</ul>
+<h2 id="new-sources_v1.4">New Sources</h2>
+<ul>
+<li><a href="manual.html#ac-source-ghc-mod"><code>ac-source-ghc-mod</code></a></li>
+<li><a href="manual.html#ac-source-slime"><code>ac-source-slime</code></a></li>
+</ul>
+<h2 id="new-dictionaries_v1.4">New Dictionaries</h2>
+<ul>
+<li>erlang-mode</li>
+<li>ada-mode</li>
+</ul>
+<h2 id="fixed-bugs_v1.4">Fixed Bugs</h2>
+<ul>
+<li>Rare completion frequency computation error</li>
+<li>Improve dictionary caching sterategy</li>
+<li>Fixed help-mode error (&quot;help-setup-xref: Symbol's value as variable is void: help-xref-following&quot;)</li>
+<li>Fixed auto-complete couldn't use pos-tip on Windows</li>
+<li><a href="manual.html#linum-mode-bug">Added workaround for linum-mode displaying bug</a></li>
+</ul>
+<h1 id="changes_v1.3.1">v1.3.1 Changes</h1>
+<h2 id="fixed-bugs_v1.3.1">Fixed Bugs</h2>
+<ul>
+<li>Significant bug on css-mode</li>
+</ul>
+<h2 id="others_v1.3.1">Others</h2>
+<ul>
+<li>Added COPYING files</li>
+</ul>
+<h1 id="changes_v1.3">v1.3 Changes</h1>
+<p>Major changes in v1.3.</p>
+<h2 id="new-options_v1.3">New Options</h2>
+<ul>
+<li><a href="manual.html#ac-disable-faces"><code>ac-disable-faces</code></a></li>
+<li><a href="manual.html#ac-show-menu-immediately-on-auto-complete"><code>ac-show-menu-immediately-on-auto-complete</code></a></li>
+<li><a href="manual.html#ac-expand-on-auto-complete"><code>ac-expand-on-auto-complete</code></a></li>
+<li><a href="manual.html#ac-use-menu-map"><code>ac-use-menu-map</code></a></li>
+</ul>
+<h2 id="new-sources_v1.3">New Sources</h2>
+<ul>
+<li><a href="manual.html#ac-source-semantic-raw"><code>ac-source-semantic-raw</code></a></li>
+<li><a href="manual.html#ac-source-css-property"><code>ac-source-css-property</code></a></li>
+</ul>
+<h2 id="new-source-properties_v1.3">New Source Properties</h2>
+<ul>
+<li><a href="manual.html#summary"><code>summary</code></a></li>
+<li><a href="manual.html#available"><code>available</code></a></li>
+</ul>
+<h2 id="new-dictionaries_v1.3">New Dictionaries</h2>
+<ul>
+<li>tcl-mode</li>
+<li>scheme-mode</li>
+</ul>
+<h2 id="changed-behaviors_v1.3">Changed Behaviors</h2>
+<ul>
+<li>Scoring regarding to candidate length (sort by length)</li>
+</ul>
+<h2 id="fixed-bugs_v1.3">Fixed Bugs</h2>
+<ul>
+<li>Error on Emacs 22.1</li>
+<li><code>flyspell-mode</code> confliction (<code>M-x flyspell-workaround</code>)</li>
+</ul>
+<h2 id="others-v1.3">Others</h2>
+<ul>
+<li>Improved word completion performance (#18)</li>
+<li>Cooperate with <a href="manual.html#show-help-beautifully">pos-tip.el</a></li>
+<li>Yasnippet 0.61 support</li>
+<li>Fix many bugs</li>
+</ul>
+<h1 id="changes_v1.2">v1.2 Changes</h1>
+<p>Major changes in v1.2 since v1.0.</p>
+<h2 id="new-features_v1.2">New Features</h2>
+<ul>
+<li><a href="manual.html#completion-by-fuzzy-matching">Completion by Fuzzy Matching</a></li>
+<li><a href="manual.html#completion-by-dictionary">Completion by Dictionary</a></li>
+<li><a href="manual.html#filtering-completion-candidates">Incremental Filtering</a></li>
+<li><a href="manual.html#candidate-suggestion">Intelligent Candidate Suggestion</a></li>
+<li><a href="manual.html#trigger-key">Trigger Key</a></li>
+<li><a href="manual.html#Help">Help</a></li>
+</ul>
+<h2 id="new-commands_v1.2">New Commands</h2>
+<ul>
+<li><a href="manual.html#auto-complete-command"><code>auto-complete</code></a></li>
+</ul>
+<h2 id="new-options_v1.2">New Options</h2>
+<ul>
+<li><a href="manual.html#ac-delay"><code>ac-delay</code></a></li>
+<li><a href="manual.html#ac-auto-show-menu"><code>ac-auto-show-menu</code></a></li>
+<li><a href="manual.html#ac-use-fuzzy"><code>ac-use-fuzzy</code></a></li>
+<li><a href="manual.html#ac-use-comphist"><code>ac-use-comphist</code></a></li>
+<li><a href="manual.html#ac-ignores"><code>ac-ignores</code></a></li>
+<li><a href="manual.html#ac-ignore-case"><code>ac-ignore-case</code></a></li>
+<li><a href="manual.html#ac-mode-map"><code>ac-mode-map</code></a></li>
+</ul>
+<h2 id="new-sources_v1.2">New Sources</h2>
+<ul>
+<li><a href="manual.html#ac-source-dictionary"><code>ac-source-dictionary</code></a></li>
+</ul>
+<h2 id="changed-behaviors_v1.2">Changed Behaviors</h2>
+<ul>
+<li>Completion is now delayed to start (<a href="manual.html#ac-delay"><code>ac-delay</code></a>)</li>
+<li>Completion menu is now delayed to show (<a href="manual.html#ac-auto-show-menu"><code>ac-auto-show-menu</code></a>)</li>
+</ul>
+<h2 id="others_v1.2">Others</h2>
+<ul>
+<li>Fix many bugs</li>
+<li>Improve performance</li>
+</ul>
+</body>
+</html>
